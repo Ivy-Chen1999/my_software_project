@@ -1,1 +1,2 @@
-# my_software_project
+# Software development, practical work
+my_software_project

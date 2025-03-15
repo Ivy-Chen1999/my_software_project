@@ -1,2 +1,4 @@
 # Software development, practical work
-my_software_project
+*this is my software project*
+**This is bold text**
+[exercises](url)

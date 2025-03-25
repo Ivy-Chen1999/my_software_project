@@ -1,25 +1,101 @@
-**Working Time Accounting**
-
-| Date   | Time (hours) | Activity Description |
-|--------|-------------|----------------------|
-| 26.3.  | 2           | Initial project setup, repository creation, and environment configuration |
-| 27.3.  | 2           | Research on authentication methods, database schema design |
-| 28.3.  | 3           | Learning about secure authentication practices, implementing user registration and login functionality |
-| 29.3.  | 2           | Debugging authentication flow, adding logout functionality |
-| 30.3.  | 2           | Studying best practices for UI/UX in task management apps, implementing task creation and listing feature |
-| 31.3.  | 2           | UI design for task management, improving user experience |
-| 1.4.   | 2           | Learning about state management in applications, implementing task status management (mark as completed/pending) |
-| 2.4.   | 3           | Researching data storage strategies, implementing task deletion functionality and confirmation dialogs |
-| 3.4.   | 3           | Implementation of task timer (start/stop tracking), exploring different time tracking techniques |
-| 4.4.   | 2           | Studying data visualization techniques, implementing data storage and retrieval for time tracking |
-| 5.4.   | 2           | Development of task time statistics and visual representation |
-| 6.4.   | 3           | UI refinements and usability improvements, learning about accessibility standards |
-| 7.4.   | 2           | Code refactoring to improve maintainability and efficiency, reviewing clean coding principles |
-| 8.4.   | 2           | Studying testing methodologies, initial testing of all features, bug fixing |
-| 9.4.   | 3           | Additional testing and debugging based on test cases |
-| 10.4.  | 2           | Writing user manual and documentation, reviewing documentation best practices |
-| 11.4.  | 2           | Reviewing and refining architecture for scalability, studying design patterns |
-| 12.4.  | 3           | Final round of bug fixes and optimizations, implementing feedback from testing |
-| 13.4.  | 2           | Final testing and preparing for deployment |
-| **Total** | **40**    |  |
-
+<table border="1">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Time (hours)</th>
+      <th>Activity Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>26.3.</td>
+      <td>2</td>
+      <td>Learn PyQt and Tkinter</td>
+    </tr>
+    <tr>
+      <td>27.3.</td>
+      <td>2</td>
+      <td>Research on authentication methods, database schema design</td>
+    </tr>
+    <tr>
+      <td>28.3.</td>
+      <td>3</td>
+      <td>Implementing user registration and login functionality</td>
+    </tr>
+    <tr>
+      <td>29.3.</td>
+      <td>2</td>
+      <td>Saving user data to the database and adding logout functionality</td>
+    </tr>
+    <tr>
+      <td>30.3.</td>
+      <td>4</td>
+      <td>Implementing task creation and listing feature</td>
+    </tr>
+    <tr>
+      <td>31.3.</td>
+      <td>2</td>
+      <td>Studying UI/UX in task design for task management</td>
+    </tr>
+    <tr>
+      <td>1.4.</td>
+      <td>4</td>
+      <td>Implementing task status management</td>
+    </tr>
+    <tr>
+      <td>2.4.</td>
+      <td>5</td>
+      <td>Researching data storage strategies, implementing task deletion functionality and confirmation</td>
+    </tr>
+    <tr>
+      <td>3.4.</td>
+      <td>3</td>
+      <td>Implementation of task timer (start/stop tracking)</td>
+    </tr>
+    <tr>
+      <td>4.4.</td>
+      <td>2</td>
+      <td>Studying data visualization techniques, implementing data retrieval for time tracking</td>
+    </tr>
+    <tr>
+      <td>5.4.</td>
+      <td>2</td>
+      <td>Development of task time statistics and visualization</td>
+    </tr>
+    <tr>
+      <td>6.4.</td>
+      <td>3</td>
+      <td>Making UI and working on usability improvements</td>
+    </tr>
+    <tr>
+      <td>7.4.</td>
+      <td>2</td>
+      <td>Code refactoring</td>
+    </tr>
+    <tr>
+      <td>8.4.</td>
+      <td>2</td>
+      <td>Testing and bug fixing</td>
+    </tr>
+    <tr>
+      <td>10.4.</td>
+      <td>2</td>
+      <td>Writing user manual and documentation</td>
+    </tr>
+    <tr>
+      <td>11.4.</td>
+      <td>2</td>
+      <td>Reviewing and refining architecture</td>
+    </tr>
+    <tr>
+      <td>13.4.</td>
+      <td>3</td>
+      <td>Final testing and preparing for deployment</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <th>45</th>
+      <th></th>
+    </tr>
+  </tbody>
+</table>

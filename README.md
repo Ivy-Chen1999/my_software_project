@@ -1,6 +1,10 @@
 # Software development, practical work
-*this is my software project*  
+*A time management application*  
 
 **Content**  
 
-[exercises](https://github.com/Ivy-Chen1999/my_software_project/tree/main/exercises)
+[exercises list](https://github.com/Ivy-Chen1999/my_software_project/tree/main/exercises)
+
+**Documentation**  
+
+[Requirements specification](https://github.com/Ivy-Chen1999/my_software_project/tree/main/exercises)

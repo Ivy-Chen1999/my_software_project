@@ -1,1 +1,24 @@
+# Working Time Accounting
 
+| Date   | Time (hours) | Activity Description |
+|--------|-------------|----------------------|
+| 26.3.  | 2           | Initial project setup, repository creation, and environment configuration |
+| 27.3.  | 2           | Research on authentication methods, database schema design |
+| 28.3.  | 3           | Learning about secure authentication practices, implementing user registration and login functionality |
+| 29.3.  | 2           | Debugging authentication flow, adding logout functionality |
+| 30.3.  | 2           | Studying best practices for UI/UX in task management apps, implementing task creation and listing feature |
+| 31.3.  | 2           | UI design for task management, improving user experience |
+| 1.4.   | 2           | Learning about state management in applications, implementing task status management (mark as completed/pending) |
+| 2.4.   | 3           | Researching data storage strategies, implementing task deletion functionality and confirmation dialogs |
+| 3.4.   | 3           | Implementation of task timer (start/stop tracking), exploring different time tracking techniques |
+| 4.4.   | 2           | Studying data visualization techniques, implementing data storage and retrieval for time tracking |
+| 5.4.   | 2           | Development of task time statistics and visual representation |
+| 6.4.   | 3           | UI refinements and usability improvements, learning about accessibility standards |
+| 7.4.   | 2           | Code refactoring to improve maintainability and efficiency, reviewing clean coding principles |
+| 8.4.   | 2           | Studying testing methodologies, initial testing of all features, bug fixing |
+| 9.4.   | 3           | Additional testing and debugging based on test cases |
+| 10.4.  | 2           | Writing user manual and documentation, reviewing documentation best practices |
+| 11.4.  | 2           | Reviewing and refining architecture for scalability, studying design patterns |
+| 12.4.  | 3           | Final round of bug fixes and optimizations, implementing feedback from testing |
+| 13.4.  | 2           | Final testing and preparing for deployment |
+| **Total** | **40**        |  |

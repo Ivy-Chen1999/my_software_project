@@ -1,7 +1,6 @@
 # Software development, practical work
 *A time management application*  
-
-**Content**  
+The Time Management application is designed to help helps users manage their time efficiently by combining a To-Do list with task timing and statistical analysis features. Users can plan, track, and review their tasks to improve productivity.
 
 [exercises list](https://github.com/Ivy-Chen1999/my_software_project/tree/main/exercises)
 

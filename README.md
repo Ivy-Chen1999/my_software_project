@@ -1,6 +1,7 @@
 # A time management application ⭐
  
-The Time Management application is designed to help users manage their time efficiently by combining a To-Do list with task timing and statistical analysis features. Users can plan, track, and review their tasks to improve productivity.
+The Time Management application is designed to help users manage their time efficiently by combining a To-Do list with task timing and statistical analysis features. Users can plan, track, and review their tasks to improve productivity. 
+This application's functions include: User Authentication, Task Management, Task Status Tracking, Time Tracking, Statistics & Visualization.
 
 ## Current Function
 - User management

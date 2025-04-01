@@ -9,54 +9,49 @@
   </thead>
   <tbody>
     <tr>
-      <td>26.3</td>
+      <td>27.3</td>
       <td>2</td>
       <td>Learn PyQt and Tkinter</td>
     </tr>
     <tr>
-      <td>27.3</td>
+      <td>28.3</td>
       <td>2</td>
       <td>Research on authentication methods, database schema design</td>
     </tr>
     <tr>
-      <td>28.3</td>
+      <td>30.3</td>
       <td>3</td>
       <td>Implementing user registration and login functionality</td>
     </tr>
     <tr>
-      <td>29.3</td>
+      <td>31.3</td>
       <td>2</td>
       <td>Saving user data to the database and adding logout functionality</td>
     </tr>
     <tr>
-      <td>30.3</td>
+      <td>1.4</td>
       <td>4</td>
       <td>Implementing task creation and listing feature</td>
     </tr>
     <tr>
-      <td>31.3</td>
+      <td>2.4</td>
       <td>2</td>
       <td>Studying UI/UX in task design for task management</td>
     </tr>
     <tr>
-      <td>1.4</td>
+      <td>3.4</td>
       <td>4</td>
       <td>Implementing task status management</td>
     </tr>
     <tr>
-      <td>2.4</td>
+      <td>4.4</td>
       <td>5</td>
       <td>Researching data storage strategies, implementing task deletion functionality and confirmation</td>
     </tr>
     <tr>
-      <td>3.4</td>
-      <td>3</td>
+      <td>5.4</td>
+      <td>1</td>
       <td>Implementation of task timer (start/stop tracking)</td>
-    </tr>
-    <tr>
-      <td>4.4</td>
-      <td>2</td>
-      <td>Studying data visualization techniques, implementing data retrieval for time tracking</td>
     </tr>
     <tr>
       <td>5.4</td>

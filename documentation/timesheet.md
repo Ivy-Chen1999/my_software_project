@@ -63,36 +63,5 @@
       <td>3</td>
       <td>Making UI and working on usability improvements</td>
     </tr>
-    <tr>
-      <td>7.4</td>
-      <td>2</td>
-      <td>Code refactoring</td>
-    </tr>
-    <tr>
-      <td>8.4</td>
-      <td>2</td>
-      <td>Testing and bug fixing</td>
-    </tr>
-    <tr>
-      <td>10.4</td>
-      <td>2</td>
-      <td>Writing user manual and documentation</td>
-    </tr>
-    <tr>
-      <td>11.4</td>
-      <td>2</td>
-      <td>Reviewing and refining architecture</td>
-    </tr>
-    <tr>
-      <td>13.4</td>
-      <td>3</td>
-      <td>Final testing and preparing for deployment</td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td>45</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+
 

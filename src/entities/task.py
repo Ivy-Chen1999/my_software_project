@@ -1,6 +1,7 @@
 from datetime import datetime
 import uuid
 
+
 class Task:
     def __init__(self, content, done=False, user_id=None, task_id=None, category=None, created_at=None):
         """
@@ -14,4 +15,3 @@ class Task:
         self.done = done
         self.created_at = created_at or datetime.now()
         self.category = category or "general"
-        

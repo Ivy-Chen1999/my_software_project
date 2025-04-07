@@ -1,6 +1,7 @@
 from datetime import datetime
 import uuid
 
+
 class PomodoroSession:
     def __init__(self, task_id, start_time, end_time, duration, session_id=None):
         """

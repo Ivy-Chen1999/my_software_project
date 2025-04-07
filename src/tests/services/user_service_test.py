@@ -1,6 +1,7 @@
 import unittest
 from entities.user import User
-from services.user_service import (UserService, InvalidCredentialsError, UsernameExistsError, InvalidUsernameError)
+from services.user_service import (
+    UserService, InvalidCredentialsError, UsernameExistsError, InvalidUsernameError)
 
 
 class FakeUserRepository:
@@ -29,7 +30,6 @@ class TestUserService(unittest.TestCase):
         self.service = UserService(FakeUserRepository())
         self.user = User("Ivy", "cyx123456")
 
-    
     def test_create_user(self):
         user = self.service.create_user("banana", "0")
         self.assertEqual(user.username, "banana")
@@ -50,7 +50,7 @@ class TestUserService(unittest.TestCase):
             UsernameExistsError,
             lambda: self.service.create_user("same", "1")
         )
-    
+
     def test_create_user_auto_login(self):
         self.service.create_user("auto", "1", auto_login=True)
         self.assertEqual(self.service.get_current_user().username, "auto")
@@ -94,7 +94,8 @@ class TestUserService(unittest.TestCase):
         usernames = []
         for user in users:
             usernames.append(user.username)
-        self.assertEqual(usernames, ["melon1", "melon2","melon3", "melon4"])
+        self.assertEqual(usernames, ["melon1", "melon2", "melon3", "melon4"])
+
 
 if __name__ == "__main__":
     unittest.main()

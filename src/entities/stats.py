@@ -1,6 +1,7 @@
 from datetime import date
 import uuid
 
+
 class Statistics:
     def __init__(self, user_id, date_select=None, tasks_completed=0, total_pomodoro_time=0, stat_id=None):
         """

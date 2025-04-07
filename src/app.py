@@ -24,7 +24,8 @@ class FakeUserRepository:
     def delete_all(self):
         self.users = []
 
-#AI generated code begin
+# AI generated code begin
+
 
 def main():
     service = UserService(FakeUserRepository())
@@ -86,7 +87,7 @@ def main():
             print("Invalid command.")
 
 
-#AI generated code end
+# AI generated code end
 
 if __name__ == "__main__":
     main()

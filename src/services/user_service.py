@@ -2,14 +2,18 @@ from entities.user import User
 # from repositories.user_repository import user_repository
 from repositories.user_repository import UserRepository
 
+
 class InvalidCredentialsError(Exception):
     pass
+
 
 class InvalidUsernameError(Exception):
     pass
 
+
 class UsernameExistsError(Exception):
     pass
+
 
 class UserService:
     def __init__(self, user_repository):
@@ -18,7 +22,8 @@ class UserService:
 
     def create_user(self, username, password, auto_login=True):
         if len(username) > 20 or len(username) < 1:
-            raise InvalidUsernameError("Username is too long or too short(within 1-20 characters)")
+            raise InvalidUsernameError(
+                "Username is too long or too short(within 1-20 characters)")
         if self._repo.find_by_username(username):
             raise UsernameExistsError("Username already exists")
 
@@ -43,5 +48,3 @@ class UserService:
 
     def get_all_users(self):
         return self._repo.find_all()
-
-

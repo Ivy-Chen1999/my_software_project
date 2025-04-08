@@ -19,13 +19,13 @@ User Authentication:
 - User can also log out. (done)
 
 Basic Features:
-- Task Listing: Users can view a list of all tasks in order. 
+- Task Listing: Users can view a list of all tasks in order. (done,order not specified)
 
-- Task Creation: Users can add new tasks with a title. 
+- Task Creation: Users can add new tasks with a title. (done)
 
-- Task Status Management: Users can mark tasks as completed or pending. 
+- Task Status Management: Users can mark tasks as completed or pending. (done)
 
-- Task Deletion: Users can remove tasks from the list. 
+- Task Deletion: Users can remove tasks from the list. (done)
 
 - Task Timer: Users can start and stop a timer for each task to track the time spent. 
 

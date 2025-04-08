@@ -3,7 +3,7 @@ import uuid
 
 
 class Statistics:
-    def __init__(self, user_id, date_select=None, tasks_completed=0, total_pomodoro_time=0, stat_id=None):  # pylint: disable=too-many-positional-arguments
+    def __init__(self, user_id, date_select=None, tasks_completed=0, total_time=0, stat_id=None):  # pylint: disable=too-many-positional-arguments
         """
         Daily statistics entity.
         Count the total tasks and overall working time.
@@ -13,4 +13,4 @@ class Statistics:
         self.user_id = user_id
         self.date = date_select or date.today()
         self.tasks_completed = tasks_completed
-        self.total_pomodoro_time = total_pomodoro_time
+        self.total_pomodoro_time = total_time

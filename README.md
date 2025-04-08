@@ -13,6 +13,8 @@ This application's functions include: User Authentication, Task Management, Task
 - [Timesheet ](https://github.com/Ivy-Chen1999/my_software_project/blob/main/documentation/timesheet.md)
 
 - [Changelog](https://github.com/Ivy-Chen1999/my_software_project/blob/main/documentation/changelog.md)
+
+- [Architecture](https://github.com/Ivy-Chen1999/my_software_project/blob/main/documentation/architecture.md)
 ****
 ## Testing
 

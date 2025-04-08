@@ -5,6 +5,7 @@ This application's functions include: User Authentication, Task Management, Task
 
 ## Current Function
 - User management
+- Task list view, creation, marking, deletion
   
 ## Documentation  
 
@@ -16,7 +17,15 @@ This application's functions include: User Authentication, Task Management, Task
 
 - [Architecture](https://github.com/Ivy-Chen1999/my_software_project/blob/main/documentation/architecture.md)
 ****
-## Testing
+## Testing 
+
+*Basic requirement:  python version >= 3.9*
+
+First initial the database with:
+
+```bash
+poetry run invoke build
+```
 
 Start the application with:
 

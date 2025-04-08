@@ -12,11 +12,11 @@ This application is designed for a single type of user: an individual who wants 
 
 ## Planned Functionalities
 User Authentication: 
-- User Registration: Users can create an account with username and password. Username must be unique and within 1-20 characters. 
+- User Registration: Users can create an account with username and password. Username must be unique and within 1-20 characters. (done)
 
-- User Login: Users can log in securely. If the login is unsuccessful there would be a notification. 
+- User Login: Users can log in securely. If the login is unsuccessful there would be a notification. (done)
 
-- User can also log out.
+- User can also log out. (done)
 
 Basic Features:
 - Task Listing: Users can view a list of all tasks in order. 

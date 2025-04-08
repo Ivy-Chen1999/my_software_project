@@ -6,7 +6,7 @@ authors = [
     {name = "Ivy-Chen199",email = "yuxin.chen@helsinki.fi"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = [
     "invoke (>=2.2.0,<3.0.0)"
 ]
@@ -21,4 +21,5 @@ coverage = "^7.8.0"
 pytest = "^8.3.5"
 pylint = "^3.3.6"
 autopep8 = "^2.3.2"
+pytest-dotenv = "^0.5.2"
 

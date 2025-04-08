@@ -1,5 +1,5 @@
 from entities.user import User
-# from database_connection import get_database_connection
+from database_connection import get_database_connection
 
 
 def get_user_by_row(row):
@@ -34,4 +34,5 @@ class UserRepository:
         self._connection.execute("DELETE FROM users")
         self._connection.commit()
 
-# user_repository = UserRepository(get_database_connection())
+
+user_repository = UserRepository(get_database_connection())

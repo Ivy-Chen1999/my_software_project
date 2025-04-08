@@ -28,7 +28,7 @@ class FakeUserRepository:
 class TestUserService(unittest.TestCase):
     def setUp(self):
         self.service = UserService(FakeUserRepository())
-        self.user = User("Ivy", "cyx123456")
+        self.user = User("melon", "123456")
 
     def test_create_user(self):
         user = self.service.create_user("banana", "0")

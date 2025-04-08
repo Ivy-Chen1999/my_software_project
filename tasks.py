@@ -4,7 +4,6 @@ from invoke import task
 def build(ctx):
     ctx.run("python3 src/build.py", pty=True)
 
-    
 @task
 def start(ctx):
     ctx.run("python3 src/app.py", pty=True)

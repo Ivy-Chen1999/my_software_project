@@ -1,2 +1,2 @@
 ![Package diagram](image/package.png)
-<img src="image/package.png" width="50"/>
+<img src="image/package.png" alt="Package diagram" width="50"/>

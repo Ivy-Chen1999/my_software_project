@@ -3,7 +3,7 @@ import uuid
 
 
 class Task:
-    def __init__(self, content, done=False, user_id=None, task_id=None, category=None, created_at=None):
+    def __init__(self, content, done=False, user_id=None, task_id=None, category=None, created_at=None):  # pylint: disable=too-many-positional-arguments
         """
             done: default to be false.
             category function might not be applied in the stats module.

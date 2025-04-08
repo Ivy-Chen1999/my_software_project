@@ -5,24 +5,6 @@ from database_connection import get_database_connection
 class TaskRepository:
     def __init__(self):
         self._connection = get_database_connection()
-        self._ensure_table_exists()
-
-# AI generated code begin
-    def _ensure_table_exists(self):
-        cursor = self._connection.cursor()
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS tasks (
-                id TEXT PRIMARY KEY,
-                user_id TEXT,
-                content TEXT NOT NULL,
-                done INTEGER DEFAULT 0,
-                created_at TIMESTAMP,
-                category TEXT,
-                FOREIGN KEY (user_id) REFERENCES users (id)
-            );
-        """)
-        self._connection.commit()
-# AI generated code ends
 
     def create(self, task: Task):
         cursor = self._connection.cursor()

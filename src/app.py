@@ -3,6 +3,7 @@ from services.user_service import user_service
 from services.task_service import task_service
 from repositories.user_repository import user_repository
 
+#AI generated code begin
 
 def handle_register():
     username = input("Username: ")
@@ -147,6 +148,6 @@ def main():
             print("Exiting.")
             break
 
-
+#AI generated code end
 if __name__ == "__main__":
     main()

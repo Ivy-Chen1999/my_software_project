@@ -27,7 +27,7 @@ Basic Features:
 
 - Task Deletion: Users can remove tasks from the list. (done)
 
-- Task Timer: Users can start and stop a timer for each task to track the time spent. 
+- Task Timer: Users can start and stop a timer for each task to track the time spent. (done)
 
 - Task Time Statistics: The app will generate reports and visualizations showing time distribution across tasks. 
 

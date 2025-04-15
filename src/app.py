@@ -1,9 +1,13 @@
 """only for temporary use before UI settled done"""
+from datetime import datetime
 from services.user_service import user_service
 from services.task_service import task_service
 from repositories.user_repository import user_repository
+from services.pomodoro_service import PomodoroService
+pomodoro_service = PomodoroService()
 
-#AI generated code begin
+# AI generated code begin
+
 
 def handle_register():
     username = input("Username: ")
@@ -98,6 +102,41 @@ def handle_delete_task():
     print("Task deleted.")
 
 
+def handle_start_pomodoro():
+    user = user_service.get_current_user()
+    if not user:
+        print("Please log in first.")
+        return
+
+    task_id = input("Task ID to track Pomodoro for: ").strip()
+    if not task_id:
+        print("Task ID cannot be empty.")
+        return
+
+    pomodoro_service.start()
+    input("Press Enter to STOP Pomodoro...")
+    session = pomodoro_service.stop(task_id)
+
+    print(f"Pomodoro session saved: {session.duration} minutes")
+
+
+def handle_view_pomodoros():
+    task_id = input("Enter task ID to view Pomodoro sessions: ").strip()
+    if not task_id:
+        print("Task ID cannot be empty.")
+        return
+
+    sessions = pomodoro_service.get_sessions_by_task(task_id)
+
+    if not sessions:
+        print("No Pomodoro sessions found for this task.")
+    else:
+        print(f"Pomodoro sessions for task {task_id}:")
+        for s in sessions:
+            print(
+                f"- {s.start_time.strftime('%H:%M')} → {s.end_time.strftime('%H:%M')} ({s.duration} min)")
+
+
 def handle_reset_all():
     user_service.logout()
     user_repository.delete_all()
@@ -119,6 +158,8 @@ def main():
         print("7: Add a new task")
         print("8: Mark a task as done")
         print("9: Delete a task")
+        print("10: Start Pomodoro session")
+        print("11: View Pomodoro sessions for a task")
         print("99: Reset all (dev only)")
         print("0: Exit")
 
@@ -144,10 +185,16 @@ def main():
             handle_delete_task()
         elif command == "99":
             handle_reset_all()
+
+        elif command == "10":
+            handle_start_pomodoro()
+        elif command == "11":
+            handle_view_pomodoros()
         elif command == "0":
             print("Exiting.")
             break
 
-#AI generated code end
+
+# AI generated code end
 if __name__ == "__main__":
     main()

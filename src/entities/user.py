@@ -1,14 +1,10 @@
+from dataclasses import dataclass, field
 import uuid
 
 
+@dataclass
 class User:
-    def __init__(self, username, password, user_id=None):
-        """
-            Suppose there are multiple users
-            might be change in the future
-
-        """
-
-        self.id = user_id or str(uuid.uuid4())
-        self.username = username
-        self.password = password
+    """User entity. Supports multiple users, extensible in future."""
+    username: str
+    password: str
+    id: str = field(default_factory=lambda: str(uuid.uuid4()))

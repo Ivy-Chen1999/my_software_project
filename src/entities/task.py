@@ -1,17 +1,15 @@
+from dataclasses import dataclass, field
 from datetime import datetime
 import uuid
 
 
+@dataclass
 class Task:
-    def __init__(self, content, done=False, user_id=None, task_id=None, category=None, created_at=None):  # pylint: disable=too-many-positional-arguments
-        """
-            done: default to be false.
-            category function might not be applied in the stats module.
-        """
+    """Task entity. 'done' defaults to False; 'category' may not be used in statistics."""
 
-        self.id = task_id or str(uuid.uuid4())
-        self.user_id = user_id
-        self.content = content
-        self.done = done
-        self.created_at = created_at or datetime.now()
-        self.category = category or "general"
+    content: str
+    done: bool = False
+    user_id: str = None
+    category: str = field(default="general")
+    id: str = field(default_factory=lambda: str(uuid.uuid4()))
+    created_at: datetime = field(default_factory=datetime.now)

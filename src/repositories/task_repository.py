@@ -45,13 +45,14 @@ class TaskRepository:
 # AI generated code begin
     def _row_to_task(self, row):
         return Task(
+            id=row["id"],
             content=row["content"],
             done=bool(row["done"]),
             user_id=row["user_id"],
-            task_id=row["id"],
             category=row["category"],
             created_at=row["created_at"]
         )
+
 # AI generated code ends
 
 

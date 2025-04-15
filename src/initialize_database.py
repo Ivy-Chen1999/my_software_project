@@ -6,6 +6,7 @@ def drop_tables(connection):
 
     cursor.execute("DROP TABLE IF EXISTS users;")
     cursor.execute("DROP TABLE IF EXISTS tasks;")
+    cursor.execute("DROP TABLE IF EXISTS pomodoros;")
     connection.commit()
 
 
@@ -29,6 +30,16 @@ def create_tables(connection):
             created_at TIMESTAMP,
             category TEXT,
             FOREIGN KEY (user_id) REFERENCES users (id)
+        );
+    """)
+
+    cursor.execute("""
+        CREATE TABLE pomodoros (
+            id TEXT PRIMARY KEY,
+            task_id TEXT,
+            start_time TEXT,
+            end_time TEXT,
+            duration INTEGER
         );
     """)
 

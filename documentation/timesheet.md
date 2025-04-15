@@ -90,7 +90,7 @@
      </tr>
       <td>15.4</td>
       <td>1</td>
-      <td>Learn techniques of PyQt</td>
+      <td>Learn techniques of PyQt and implement release</td>
     <tr>   
     <tr>
       <td>Total</td>

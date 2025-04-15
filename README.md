@@ -21,6 +21,11 @@ This application's functions include: User Authentication, Task Management, Task
 
 *Basic requirement:  python version >= 3.9*
 
+To install the project dependencies, run:
+```bash
+poetry install
+```
+
 First initial the database with:
 
 ```bash
@@ -40,4 +45,8 @@ poetry run invoke test
 Generate a test coverage report with:
 ```bash
 poetry run invoke coverage-report
+```
+To check the code style and run linters, execute:
+```bash
+poetry run invoke lint
 ```

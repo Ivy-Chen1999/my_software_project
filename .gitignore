@@ -2,3 +2,7 @@
 __pycache__/
 .coverage
 htmlcov
+*.db
+*.sqlite
+data/*
+!data/.gitkeep

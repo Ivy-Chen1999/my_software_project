@@ -6,7 +6,9 @@ This application's functions include: User Authentication, Task Management, Task
 ## Current Function
 - User management
 - Task list view, creation, marking, deletion
-  
+
+## Newest Release
+- [Week5](https://github.com/Ivy-Chen1999/my_software_project/releases/tag/week5)
 ## Documentation  
 
 - [Requirements specification](https://github.com/Ivy-Chen1999/my_software_project/blob/main/documentation/Requirements%20specification.md) 

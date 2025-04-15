@@ -62,14 +62,42 @@
       <td>3</td>
       <td>Improve text-based UI and research on timing logic</td>
     <tr>
+     </tr>
+      <td>8.4</td>
+      <td>2</td>
+      <td>Changed the entities to dataclass and adjust corresponding code</td>
+    <tr>
+      </tr>
+      <td>9.4</td>
+      <td>2</td>
+      <td>Add PomodoroRepository</td>
+    <tr>
+      </tr>
+      <td>10.4</td>
+      <td>3</td>
+      <td>Add PomodoroService</td>
+    <tr>
+    </tr>
+      <td>11.4</td>
+      <td>2</td>
+      <td>Add unit tests for Pomodoroservice</td>
+    <tr>
+    </tr>
+      <td>14.4</td>
+      <td>2</td>
+      <td>Improve text-based UI and research on stats logic</td>
+    <tr>
+     </tr>
+      <td>15.4</td>
+      <td>1</td>
+      <td>Learn techniques of PyQt</td>
+    <tr>   
     <tr>
       <td>Total</td>
-      <td>27</td>
+      <td>39</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-
 
 

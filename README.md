@@ -6,6 +6,7 @@ This application's functions include: User Authentication, Task Management, Task
 ## Current Function
 - User management
 - Task list view, creation, marking, deletion
+- Log Pomodoro sessions on specific task
 
 ## Newest Release
 - [Week5](https://github.com/Ivy-Chen1999/my_software_project/releases/tag/week5)

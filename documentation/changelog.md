@@ -17,3 +17,13 @@
 - Polished code according to Pylint
 - Improved text based interfaced for better testing.
 - Add unit tests for UserRepo.
+
+  ## Week 5
+
+- Users can now add pomodoro sessions related to specific task.
+- Added PomodoroRepository to handle time-related database operations.
+- Added PomodoroService to manage time log including starting time and end time.
+- Added pomodoro table to SQLite database.
+- Changed the entities to dataclass and polished code according to Pylint.
+- Improved text based interfaced that enables time log functions.
+- Add unit tests for Pomodoroservice.
